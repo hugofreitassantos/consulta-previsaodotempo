@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("backgroun.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa-maior {
+    background: #000000;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px;
+    width: 90%;
+    max-width: 420px;
+    }
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #ffffffab;
+    color: #000000;
+    width: calc(100% - 70px);
+}
+
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: #ffffffab;
+    float: right; 
+    cursor: pointer;
+}
+
+.img-busca{
+    width: 20px;
+}
+
+button.hover{
+    background-color: #7c7c7c6b;
+}
+
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    
+}
+
+.temp{
+    font-size: 20px;
+    color:#ffffff;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.texto-previsao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+
+.clima{
+    color:#ffffff;
+    margin-left: 20px;
+
+}
+
+.umidade{
+    color: #ffffff;
+    margin-top: 30px;
+}
